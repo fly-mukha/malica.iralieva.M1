@@ -1,12 +1,22 @@
 body {
     font-family: roboto;
+    margin-left: 8%; 
 }
 
 .general {
     display: flex;
     flex-wrap: wrap;
     min-width: 650px;
-    max-width: 1280px; 
+    max-width: 1280px;
+    
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 43px;
+    line-height: 50px;
+    padding-left: 25px;
+    padding-top: 10px;
 }
 
 .coin-preview {
@@ -14,12 +24,8 @@ body {
     flex-direction: row;
     width: 50%;
     min-width: 250px;
-}
-
-h1 {
-    font-weight: 300;
-    font-size: 43px;
-    line-height: 50px;
+    margin-bottom: 20px;
+    
 }
 
 .title-image {
