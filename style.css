@@ -177,6 +177,11 @@ h1 {
     background-repeat: no-repeat; 
 }
 
+#bobr-rev {
+    background: url(images/реверс\ Бобр.png);
+    background-size: contain;
+    background-repeat: no-repeat; 
+}
 
 .big-description {
     width: 40%;
