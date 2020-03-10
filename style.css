@@ -1,0 +1,17 @@
+h1 {
+    position: absolute;
+    width: 1069px;
+    height: 71px;
+    left: 124px;
+    top: 39px;
+    
+    /* main titel */
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 43px;
+    line-height: 50px;
+    
+    color: #000000;
+}
