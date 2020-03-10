@@ -12,7 +12,8 @@ body {
 .coin-preview {
     display: flex;
     flex-direction: row;
-    width: 550px;
+    width: 50%;
+    min-width: 250px;
 }
 
 h1 {
@@ -25,7 +26,7 @@ h1 {
     position: relative;
     width: 172px;
     height: 172px;
-    left: 0px;
+ 
     top: -20px;  
 }
     
@@ -98,9 +99,8 @@ h1 {
 }
 
 .description {
-    width: 50%;
     height: 120px;
-
+    width: 50%;
     font-weight: normal;
     font-size: 12px;
     line-height: 125.5%;
@@ -121,12 +121,15 @@ h1 {
 
 
 .price {
+    position: relative;
+    right: 0px;
     width: 96px;
     height: 120px;
 ;
     font-weight: bold;
     font-size: 16px;
     line-height: 123.4%;
+
     /* or 20px */
 
 }
@@ -205,12 +208,24 @@ h1 {
     position: relative;
 }
 
+.big-description p {
+    font-size: 14px;
+}
+
 h2 {
     font-weight: 900; 
     font-size: 28px;
     line-height: 33px;
     display: flex;
     align-items: center;
+}
+
+.artik {
+    font-size: 12px;
+}
+
+.artikul {
+    color: #7A7A7A;
 }
 
 .big-price {
