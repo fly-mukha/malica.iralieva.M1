@@ -2,14 +2,14 @@ body {
     font-family: roboto;
 }
 
-main {
+.general {
     display: flex;
     flex-wrap: wrap;
     min-width: 650px;
     max-width: 1280px; 
 }
 
-section {
+.coin-preview {
     display: flex;
     flex-direction: row;
     width: 550px;
@@ -31,42 +31,50 @@ h1 {
     
 #linkoln-img {
     background: url(images/аверс\ Линкольн.png);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 #kenedi-img {
     background: url(images/аверс\ Кеннеди.png);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 #djefferson-img {
     background: url(images/аверс\ Джефферсон.png);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 #ruzvelt-img {
     background: url(images/аверс\ Рузвельт.png);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 #bobr-img {
     background: url(images/аверс\ Бобр.png);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 #klen-img {
     background: url(images/аверс\ Клен.png);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 #gagara-img {
     background: url(images/аверс\ Гагара.png);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 #los-img {
     background: url(images/аверс\ Лось.png);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .discount {
@@ -126,4 +134,80 @@ h1 {
     color: #7A7A7A;
 }
 
+.coin {
+    max-width: 920px;
+    min-width: 600px;
+    display: flex;
+    flex-direction: row;
+}
 
+.big-img {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.avers {
+    height: 333px;
+}
+
+#linkoln-rev {
+    background: url(images/реверс\ Линкольн.png);
+    background-size: contain;
+    background-repeat: no-repeat;  
+}
+
+.big-description {
+    width: 50%;
+    height: 672px;
+    margin: 20px;
+    padding: 30px;
+
+    background: rgba(196, 196, 196, 0.5);
+    position: relative;
+}
+
+h2 {
+    font-weight: 900; 
+    font-size: 28px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+}
+
+.big-price {
+    font-weight: bold;
+    font-size: 28px;;
+}
+
+
+tr:nth-child(odd) {
+    background: rgb(252, 252, 252);
+}
+tr:nth-child(even) {
+    background: rgba(225, 225, 225);
+}
+
+table {
+    border-collapse: collapse; 
+    border-style: hidden;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 105.2%;
+}
+
+td {
+    padding: 4px 15px;
+    border: 1px solid #B1ACAC;
+}
+
+.back {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration-line: underline; 
+
+    color: #833AE0;
+    position: absolute;
+    bottom: 40px;
+}
