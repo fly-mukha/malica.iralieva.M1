@@ -171,6 +171,12 @@ h1 {
     background-repeat: no-repeat;  
 }
 
+#ruzvelt-rev {
+    background: url(images/реверс\ Рузвельт.png);
+    background-size: contain;
+    background-repeat: no-repeat; 
+}
+
 
 .big-description {
     width: 40%;
