@@ -183,6 +183,12 @@ h1 {
     background-repeat: no-repeat; 
 }
 
+#klen-rev {
+    background: url(images/реверс\ Клен.png);
+    background-size: contain;
+    background-repeat: no-repeat; 
+}
+
 .big-description {
     width: 40%;
     height: 672px;
