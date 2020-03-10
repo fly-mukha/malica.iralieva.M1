@@ -1,17 +1,129 @@
+body {
+    font-family: roboto;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 650px;
+    max-width: 1280px; 
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    width: 550px;
+}
+
 h1 {
-    position: absolute;
-    width: 1069px;
-    height: 71px;
-    left: 124px;
-    top: 39px;
-    
-    /* main titel */
-    
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 300;
     font-size: 43px;
     line-height: 50px;
-    
-    color: #000000;
 }
+
+.title-image {
+    position: relative;
+    width: 172px;
+    height: 172px;
+    left: 0px;
+    top: -20px;  
+}
+    
+#linkoln-img {
+    background: url(images/аверс\ Линкольн.png);
+    background-size: cover;
+}
+
+#kenedi-img {
+    background: url(images/аверс\ Кеннеди.png);
+    background-size: cover;
+}
+
+#djefferson-img {
+    background: url(images/аверс\ Джефферсон.png);
+    background-size: cover;
+}
+
+#ruzvelt-img {
+    background: url(images/аверс\ Рузвельт.png);
+    background-size: cover;
+}
+
+#bobr-img {
+    background: url(images/аверс\ Бобр.png);
+    background-size: cover;
+}
+
+#klen-img {
+    background: url(images/аверс\ Клен.png);
+    background-size: cover;
+}
+
+#gagara-img {
+    background: url(images/аверс\ Гагара.png);
+    background-size: cover;
+}
+
+#los-img {
+    background: url(images/аверс\ Лось.png);
+    background-size: cover;
+}
+
+.discount {
+    position: absolute;
+    right: 14%;
+    top: 14%;
+    width: 44px;
+    height: 44px;
+    border-radius: 44px;
+
+    background: #833AE0;
+
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #FFFFFF;
+}
+
+.description {
+    width: 50%;
+    height: 120px;
+
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 125.5%;
+    /* or 15px */
+}
+
+.description h3 {
+    color: #833AE0;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 0px;
+}
+.price {
+    width: 96px;
+    height: 120px;
+;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 123.4%;
+    /* or 20px */
+
+}
+
+.price span {
+
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 125.5%;
+    /* or 15px */
+    color: #7A7A7A;
+}
+
+
