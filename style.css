@@ -108,12 +108,18 @@ h1 {
 }
 
 .description h3 {
-    color: #833AE0;
     font-weight: bold;
     font-size: 16px;
     line-height: 19px;
     margin-top: 0px;
 }
+
+.reference {
+    text-decoration: none;
+    color: #833AE0;
+}
+
+
 .price {
     width: 96px;
     height: 120px;
