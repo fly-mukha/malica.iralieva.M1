@@ -165,6 +165,12 @@ h1 {
     background-repeat: no-repeat;  
 }
 
+#djefferson-rev {
+    background: url(images/реверс\ Джефферсон.png);
+    background-size: contain;
+    background-repeat: no-repeat;  
+}
+
 
 .big-description {
     width: 40%;
