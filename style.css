@@ -1,14 +1,16 @@
 body {
     font-family: roboto;
-    margin-left: 8%; 
 }
 
 .general {
+    margin-left: 9%;
+}
+
+.contain {
     display: flex;
     flex-wrap: wrap;
     min-width: 650px;
     max-width: 1280px;
-    
 }
 
 h1 {
@@ -23,16 +25,15 @@ h1 {
     display: flex;
     flex-direction: row;
     width: 50%;
+    /* max-width: 500px; одна-две колонки */
     min-width: 250px;
-    margin-bottom: 20px;
-    
+    margin-bottom: 0px;   
 }
 
 .title-image {
     position: relative;
     width: 172px;
     height: 172px;
- 
     top: -20px;  
 }
     
@@ -91,25 +92,23 @@ h1 {
     width: 44px;
     height: 44px;
     border-radius: 44px;
-
     background: #833AE0;
-
     font-weight: bold;
     font-size: 15px;
     line-height: 18px;
     display: flex;
     align-items: center;
     justify-content: center;
-
     color: #FFFFFF;
 }
 
 .description {
     height: 120px;
-    width: 50%;
+    width: 50%; 
     font-weight: normal;
     font-size: 12px;
     line-height: 125.5%;
+    padding: 3px;
     /* or 15px */
 }
 
@@ -209,7 +208,6 @@ h1 {
     height: 672px;
     margin: 20px;
     padding: 30px;
-
     background: rgba(196, 196, 196, 0.5);
     position: relative;
 }
@@ -265,7 +263,6 @@ td {
     font-size: 12px;
     line-height: 14px;
     text-decoration-line: underline; 
-
     color: #833AE0;
     position: absolute;
     bottom: 40px;
