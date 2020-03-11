@@ -104,16 +104,17 @@ h1 {
 
 .description {
     height: 120px;
-    max-width: 90%;
-    min-width: 50%;
-    /*width: 50%; */
+    width: 50%; 
     font-weight: normal;
     font-size: 12px;
     line-height: 125.5%;
     padding: 3px;
-    /* or 15px */
 }
 
+/*
+    max-width: 90%;
+    min-width: 50%;
+} */
 
 .description h3 {
     font-weight: bold;
@@ -127,6 +128,7 @@ h1 {
     color: #833AE0;
 }
 
+
 .price {
     position: relative;
     right: 0px;
@@ -135,9 +137,11 @@ h1 {
     font-weight: bold;
     font-size: 16px;
     line-height: 123.4%;
+
 }
 
 .price span {
+
     font-weight: 300;
     font-size: 12px;
     line-height: 125.5%;
